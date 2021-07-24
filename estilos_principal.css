@@ -1,0 +1,70 @@
+body{
+    background: #e5add7;
+    
+}
+header {
+    border-color: rgb(248, 246, 247);
+            border-style: solid;
+            border-width: 1px;
+            margin-top: #dbce8c;
+            color:rgb(255, 255, 255);
+            background: #fcfcfc;
+            height:78px;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+
+  }
+  #logo{
+ 
+    height: 76px;
+   }
+   
+.menu {
+    list-style: none;
+    float: left;
+}
+
+.menu li{
+    position: relative;
+    float: left;
+}
+
+.menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu li a:hover{
+    background-color: rgb(240, 175, 234);
+    color:#fff;
+    text-shadow: 0px 0px 5px rgb(5, 4, 4);
+}
+
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display: block;
+}
+
+.menu li ul li {
+    border: 1px solid #c0c0c0;
+    display: block;
+    width: 150px
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+}
